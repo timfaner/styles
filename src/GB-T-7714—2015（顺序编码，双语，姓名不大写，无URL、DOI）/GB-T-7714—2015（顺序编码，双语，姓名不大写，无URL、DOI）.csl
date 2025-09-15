@@ -69,7 +69,7 @@
   <macro name="title">
     <group delimiter=", ">
       <group delimiter=": ">
-        <text variable="title"/>
+        <text variable="title" text-case="title"/>
         <group delimiter="&#8195;">
           <choose>
             <if variable="container-title" type="chapter entry-dictionary entry-encyclopedia paper-conference" match="none">
